@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F1F3FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/request_info"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:text="Запрос на выборку содержит: "
+        android:textColor="#D69CC8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_client_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="50dp"
+        android:text="Имя "
+        android:textColor="#7B9793"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/request_info"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lastname_client_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Фамилия"
+        android:textColor="#CA7B43"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/name_client_request"
+        app:layout_constraintTop_toBottomOf="@+id/name_client_request"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/login_client_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Логин"
+        android:textColor="#1C786B"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lastname_client_request"
+        app:layout_constraintTop_toBottomOf="@+id/lastname_client_request"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_rating_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text=" Id рейтинга "
+        android:textColor="#A19F91"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_client_request"
+        app:layout_constraintTop_toBottomOf="@+id/login_client_request" />
+
+
+    <TextView
+        android:id="@+id/login_client_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Логин клиента "
+        android:textColor="#2E46CF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_rating_request"
+        app:layout_constraintTop_toBottomOf="@+id/id_rating_request" />
+
+    <TextView
+        android:id="@+id/id_shop_rating_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер магазина"
+        android:textColor="#D5146B"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_client_rating"
+        app:layout_constraintTop_toBottomOf="@+id/login_client_rating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_product_rating_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер книги"
+        android:textColor="#8A65DD"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_shop_rating_request"
+        app:layout_constraintTop_toBottomOf="@+id/id_shop_rating_request"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title_rating_request"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:text="Название книги"
+        android:textColor="#776406"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_product_rating_request"
+        app:layout_constraintTop_toBottomOf="@+id/id_product_rating_request"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/description_rating_request"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Отзыв о книге"
+        android:textColor="#C0A3C8"
+        android:textSize="14sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_rating_request"
+        app:layout_constraintTop_toBottomOf="@+id/title_rating_request"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/star_rating_request"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Баллы "
+        android:textColor="#AF381A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/description_rating_request"
+        app:layout_constraintTop_toBottomOf="@+id/description_rating_request"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/button_enter_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="Завершить просмотр"
+        android:textColor="#BA7665"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/star_rating_request"
+        app:layout_constraintTop_toBottomOf="@+id/star_rating_request"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/drawable/ic_baseline_arrow_outward_24.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/drawable/ic_baseline_close_fullscreen_24.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/drawable/ic_baseline_send_to_mobile_24.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/font/myfont.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/add_purchase_form.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/add_purchases_prices_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_author.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_car.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_car_with_employee.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_employee_and_product.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_product_rating_fragment.xml" value="0.4227405247813411" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_products_rating_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_provider_and_product.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/all_request_rating_fragment.xml" value="0.4227405247813411" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/author_add_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/author_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/book_shop_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/car_add_form.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/car_add_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/car_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/client_add_form.xml" value="0.536" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/client_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/employee_add_form.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/employee_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/id_add_for_request_e_p.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/id_add_for_request_prov_supply.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_add_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_author.xml" value="0.7053140096618358" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_car.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_client.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_employee.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_phone.xml" value="0.536" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_price.xml" value="0.6" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_product.xml" value="0.536" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_provider.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_purchase.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_purchase_status.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_purchase_statuse.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_purchases_prices.xml" value="0.6" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_rating.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_sale.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_shop.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/list_supply.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/main_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/phone_add_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/phone_number_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/price_add_form.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/price_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/product_add_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/product_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/prov_add_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/provider_add_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/provider_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchase_add_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchase_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchase_status_add_form.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchase_status_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchase_statuse_add_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchase_statuse_fragment.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchases_prices_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/purchases_prises_add_form.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/rating_add_form.xml" value="0.536" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/rating_fragment.xml" value="0.4227405247813411" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/request_author_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/request_car_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/request_rating_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/request_rating_products_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/request_rating_produst_for.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/sale_add_form.xml" value="0.4227405247813411" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/sale_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/shop_add_form.xml" value="0.536" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/supply_add_form.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/supply_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/update_cllient_form.xml" value="0.4" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/layout/update_provider_form.xml" value="0.2" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/menu/author_menu.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/menu/client_menu.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/menu/rating_menu.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/menu/shared_menu.xml" value="0.2265625" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/TIMURMIR/myBase/android_basic/RoomDao/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24270833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="104dp"
+    android:background="#00F1F3FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/id_supply"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="№  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/supply_size"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Размер поставки"
+        app:layout_constraintStart_toStartOf="@+id/id_supply"
+        app:layout_constraintTop_toBottomOf="@+id/id_supply"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/id_provider"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Номер поставщика"
+        app:layout_constraintStart_toStartOf="@+id/supply_size"
+        app:layout_constraintTop_toBottomOf="@+id/supply_size"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/id_product"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Номер_продукта"
+        app:layout_constraintStart_toStartOf="@+id/id_provider"
+        app:layout_constraintTop_toBottomOf="@+id/id_provider"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

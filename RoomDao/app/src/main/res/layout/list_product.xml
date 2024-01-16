@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00F1F3FB">
+
+    <TextView
+        android:id="@+id/id_product"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="№  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_P"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Наименование продукта"
+
+        app:layout_constraintStart_toStartOf="@+id/id_product"
+        app:layout_constraintTop_toBottomOf="@+id/id_product"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/avatar_P"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Фото продукта"
+        app:layout_constraintStart_toStartOf="@+id/title_P"
+       app:layout_constraintTop_toBottomOf="@+id/title_P"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/description_P"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Описание продукта"
+        app:layout_constraintStart_toStartOf="@+id/avatar_P"
+       app:layout_constraintTop_toBottomOf="@+id/avatar_P"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

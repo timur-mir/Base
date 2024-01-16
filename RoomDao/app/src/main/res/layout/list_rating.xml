@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F1F3FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/id_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text=" Id рейтинга "
+        android:textColor="#21A317"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/login_client_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Логин клиента "
+        android:textColor="#2E46CF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/id_rating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_shop_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер магазина"
+        android:textColor="#D5146B"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_client_rating"
+        app:layout_constraintTop_toBottomOf="@+id/login_client_rating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_product_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер книги"
+        android:textColor="#C3AC35"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_shop_rating"
+        app:layout_constraintTop_toBottomOf="@+id/id_shop_rating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Название книги"
+        android:textColor="#20C5D3"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_product_rating"
+        app:layout_constraintTop_toBottomOf="@+id/id_product_rating"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/description_rating"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Отзыв о книге"
+        android:textColor="#A134BD"
+        android:textSize="14sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_rating"
+        app:layout_constraintTop_toBottomOf="@+id/title_rating"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/star_rating"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Баллы "
+        android:textColor="#A53114"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/description_rating"
+        app:layout_constraintTop_toBottomOf="@+id/description_rating"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/rating_avatar_client"
+        android:layout_width="272dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rating2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star_rating">
+
+    </ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5D97BA"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/head_form2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#C2E4AD"
+        android:textSize="20sp"
+        android:text="Введите обновление клиента"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/name_c2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        android:hint="Имя клиента"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_form2" />
+
+    <EditText
+        android:id="@+id/last_name_c2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="50"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        android:hint="Фамилия клиента"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_c2" />
+
+    <EditText
+        android:id="@+id/email_c2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="50"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        android:hint="Электронная почта"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/last_name_c2" />
+
+    <EditText
+        android:id="@+id/login_c2"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="50"
+        android:hint="Логин клиента авторизации"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_c2" />
+
+    <EditText
+        android:id="@+id/password_c2"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="50"
+        android:hint="Пароль для входа "
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_c2" />
+
+    <EditText
+        android:id="@+id/avatar_c2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Адрес изображения"
+        android:text="https://cdn.onlinewebfonts.com/svg/download_507437.png"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_c2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_enter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="20dp"
+        android:text="Обновить"
+        android:textColor="#570328"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/avatar_c2"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_c2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

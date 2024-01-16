@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F1F3FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/id_client_a"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Номер клиента "
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/name_client_a"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Имя "
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/id_client_a"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lastname_client_a"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Фамилия"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/name_client_a"
+        app:layout_constraintTop_toBottomOf="@+id/name_client_a"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/email_client_a"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Емаил"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lastname_client_a"
+        app:layout_constraintTop_toBottomOf="@+id/lastname_client_a"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/login_client_a"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Логин"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_client_a"
+        app:layout_constraintTop_toBottomOf="@+id/email_client_a"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/password_client_a"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Пароль"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_client_a"
+        app:layout_constraintTop_toBottomOf="@+id/login_client_a"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/avatar_client_a"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dp"
+        android:text="Адрес изображения "
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_client_a"
+        app:layout_constraintTop_toBottomOf="@+id/password_client_a"
+        tools:src="@drawable/client2" />
+
+
+    <TextView
+        android:id="@+id/id_author_a"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left"
+        android:hint="№"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/avatar_client_a"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_client_a" />
+
+    <TextView
+        android:id="@+id/author_name_a"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left"
+        android:hint="Имя автора"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/id_author_a"
+        app:layout_constraintTop_toBottomOf="@+id/id_author_a" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

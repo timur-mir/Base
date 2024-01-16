@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00F1F3FB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/id_client"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Номер клиента "
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/name_client"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Имя "
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/id_client"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lastname_client"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Фамилия"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/name_client"
+        app:layout_constraintTop_toBottomOf="@+id/name_client"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/email_client"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Емаил"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lastname_client"
+        app:layout_constraintTop_toBottomOf="@+id/lastname_client"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/login_client"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Логин"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_client"
+        app:layout_constraintTop_toBottomOf="@+id/email_client"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/password_client"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Пароль"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_client"
+          app:layout_constraintTop_toBottomOf="@+id/login_client"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/avatar_client"
+        android:layout_width="272dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_client"
+        tools:src="@drawable/client2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

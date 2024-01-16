@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F1F3FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/request_info_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:text="Запрос на выборку содержит: "
+        android:textColor="#6BA684"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_id"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Номер продукта "
+        android:textColor="#208C7C"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_info_product"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Название продукта"
+        android:textColor="#CD9973"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/product_id"
+        app:layout_constraintTop_toBottomOf="@+id/product_id"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/avatar_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Аватар продукта"
+        android:textColor="#368C80"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_product"
+        app:layout_constraintTop_toBottomOf="@+id/title_product"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/description_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Описание продукта"
+        android:textColor="#C6B972"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/avatar_product"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_product" />
+
+
+    <TextView
+        android:id="@+id/id_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер рейтинга"
+        android:textColor="#21A317"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/description_product"
+        app:layout_constraintTop_toBottomOf="@+id/description_product" />
+
+    <TextView
+        android:id="@+id/login_client_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Логин клиента "
+        android:textColor="#2E46CF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_rating_product"
+        app:layout_constraintTop_toBottomOf="@+id/id_rating_product"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_shop_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер магазина"
+        android:textColor="#D5146B"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_client_rating_product"
+        app:layout_constraintTop_toBottomOf="@+id/login_client_rating_product"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_product_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Номер книги"
+        android:textColor="#C3AC35"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_shop_rating_product"
+        app:layout_constraintTop_toBottomOf="@+id/id_shop_rating_product"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Название книги"
+        android:textColor="#776406"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_product_rating_product"
+        app:layout_constraintTop_toBottomOf="@+id/id_product_rating_product"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/description_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Отзыв о книге"
+        android:textColor="#AB6CBC"
+        android:textSize="14sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_rating_product"
+        app:layout_constraintTop_toBottomOf="@+id/title_rating_product"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/star_rating_product"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Баллы "
+        android:textColor="#B6472C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/description_rating_product"
+        app:layout_constraintTop_toBottomOf="@+id/description_rating_product"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F1F3FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/id_purch_pricePP"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="№  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id_pricePP"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Номер покупки/прайса"
+        app:layout_constraintStart_toStartOf="@+id/id_purch_pricePP"
+        app:layout_constraintTop_toBottomOf="@+id/id_purch_pricePP"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/id_purchasesPP"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Номер покупки"
+        app:layout_constraintStart_toStartOf="@+id/id_pricePP"
+        app:layout_constraintTop_toBottomOf="@+id/id_pricePP"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/countPP"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Количество покупок"
+        app:layout_constraintStart_toStartOf="@+id/id_purchasesPP"
+        app:layout_constraintTop_toBottomOf="@+id/id_purchasesPP"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

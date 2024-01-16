@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="360dp"
+    android:background="#E6D2AA">
+
+    <TextView
+        android:id="@+id/head_P_F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Введите данные по покупке товара"
+        android:textColor="#1D27F6"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/id_clientP_F"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Номер клиента"
+
+        android:textSize="12sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_P_F"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/id_purchaseSt_F"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Статус покупки"
+
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/id_clientP_F"
+        app:layout_constraintTop_toBottomOf="@+id/id_clientP_F" />
+
+    <TextView
+        android:id="@+id/create_atPF"
+        android:layout_width="154dp"
+        android:layout_height="24dp"
+        android:hint="Дата оформления покупки"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/id_purchaseSt_F"
+        app:layout_constraintTop_toBottomOf="@+id/id_purchaseSt_F" />
+
+    <TextView
+        android:id="@+id/pay_atPF"
+        android:layout_width="154dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:hint="Дата  покупки"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/create_atPF"
+        app:layout_constraintTop_toBottomOf="@+id/create_atPF" />
+
+    <Button
+        android:id="@+id/bdategr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите дату1"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/create_atPF"
+        app:layout_constraintTop_toTopOf="@+id/create_atPF" />
+
+    <Button
+        android:id="@+id/bdatepay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите дату"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pay_atPF"
+        app:layout_constraintTop_toTopOf="@+id/pay_atPF" />
+
+    <Button
+        android:id="@+id/addPurchaseBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Добавить"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay_atPF" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

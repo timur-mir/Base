@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00F1F3FB">
+    <TextView
+        android:id="@+id/id_employee"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Номер сотрудника "
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/email_employee"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:text="Почтовый адрес"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/id_employee"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/firstname_employee"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Имя"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_employee"
+        app:layout_constraintTop_toBottomOf="@+id/email_employee"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lastname_employee"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Фамилия"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/firstname_employee"
+        app:layout_constraintTop_toBottomOf="@+id/firstname_employee"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/post_employee"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Пост"
+        android:textColor="#B6EFE7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lastname_employee"
+        app:layout_constraintTop_toBottomOf="@+id/lastname_employee"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/avatar_employee"
+        android:layout_width="272dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_employee"
+        tools:src="@drawable/client" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#60FBE6">
+    <TextView
+        android:id="@+id/head_formF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Введите данные поставки"
+        android:textColor="#632A36"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/supply_sizeF"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Размер поставки"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_formF" />
+
+    <EditText
+        android:id="@+id/id_providerF"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:hint="Номер поставщика"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/supply_sizeF"
+        app:layout_constraintTop_toBottomOf="@+id/supply_sizeF" />
+
+    <EditText
+        android:id="@+id/id_productF"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:hint="Номер продукта"
+        android:textColor="#1D0183"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_providerF"
+        app:layout_constraintTop_toBottomOf="@+id/id_providerF" />
+
+    <Button
+        android:id="@+id/button_enterF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="8dp"
+        android:text="Добавить"
+        android:textColor="#320449"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/id_productF"
+        app:layout_constraintTop_toBottomOf="@+id/id_productF" />
+</androidx.constraintlayout.widget.ConstraintLayout>

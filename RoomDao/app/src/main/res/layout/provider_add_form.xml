@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#043C5E">
+    <TextView
+        android:id="@+id/titleProv"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="22dp"
+        android:hint="Введите данные поставщика"
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/organisationProvA"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="22dp"
+        android:hint="Наименование организации"
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/titleProv"
+        app:layout_constraintTop_toBottomOf="@id/titleProv"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/addressProvA"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:hint="Адрес"
+        android:textColor="#B6EFE7"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/organisationProvA"
+        app:layout_constraintTop_toBottomOf="@+id/organisationProvA"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/phoneProv"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:hint="Номер телефона"
+        android:textColor="#B6EFE7"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addressProvA"
+        app:layout_constraintTop_toBottomOf="@+id/addressProvA"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

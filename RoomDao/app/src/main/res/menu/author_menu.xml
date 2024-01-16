@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/updateAuthor"
+        android:orderInCategory="100"
+        android:title="@string/update_author_by_id"
+        app:showAsAction="ifRoom" />
+
+</menu>

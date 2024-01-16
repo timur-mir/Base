@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Книжный магазин "BOOKS"</string>
+    <string name="delete_all_clients">Удалить записи</string>
+    <string name="update_client_by_id">Обновить список </string>
+    <string name="delete_client_by_id">Удалить запись </string>
+    <string name="show_client_by_id">Отобразить записи </string>
+    <string name="update_author_by_id">Обновить запись </string>
+    <string name="request1">Запрос на выборку</string>
+    <string name="request2">Запрос на удаления</string>
+</resources>

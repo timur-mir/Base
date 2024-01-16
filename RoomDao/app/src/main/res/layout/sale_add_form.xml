@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2F7502"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Введите данные продажи"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/id_prod_SL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Номер продукта"
+        app:layout_constraintStart_toStartOf="@+id/main_title"
+        app:layout_constraintTop_toBottomOf="@+id/main_title"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/pay_dateSL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint=" Дата оплаты"
+        app:layout_constraintStart_toStartOf="@+id/id_prod_SL"
+        app:layout_constraintTop_toBottomOf="@+id/id_prod_SL"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/quantitySL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Количество продукта"
+        app:layout_constraintStart_toStartOf="@+id/pay_dateSL"
+        app:layout_constraintTop_toBottomOf="@+id/pay_dateSL"
+        app:layout_constraintVertical_bias="0.0" />
+    <EditText
+        android:id="@+id/priceSL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Сумма продажи"
+        app:layout_constraintStart_toStartOf="@+id/quantitySL"
+        app:layout_constraintTop_toBottomOf="@+id/quantitySL"
+        app:layout_constraintVertical_bias="0.0" />
+    <EditText
+        android:id="@+id/id_employeeSL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:gravity="left"
+        android:hint="Номер сотрудника"
+        app:layout_constraintStart_toStartOf="@+id/priceSL"
+        app:layout_constraintTop_toBottomOf="@+id/priceSL"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#091342"
+        app:layout_constraintStart_toStartOf="@+id/id_employeeSL"
+        app:layout_constraintTop_toBottomOf="@+id/id_employeeSL"/>
+
+    <Button
+        android:id="@+id/buttonSL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#888"
+        android:gravity="center"
+        android:text="Выбор даты"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pay_dateSL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toEndOf="@+id/pay_dateSL"
+        app:layout_constraintTop_toBottomOf="@+id/id_prod_SL" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

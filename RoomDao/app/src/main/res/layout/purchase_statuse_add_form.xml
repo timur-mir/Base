@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#557E3C">
+
+    <EditText
+        android:id="@+id/statuse_input_field"
+        tools:ignore="MissingConstraints,UnknownId"
+        android:layout_width="280dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="16dp"
+        android:hint="Статус покупки"
+        android:textColor="#B6EFE7"
+        android:textColorHint="#F1EBDE"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

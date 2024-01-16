@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00F1F3FB">
+
+    <TextView
+        android:id="@+id/id_employee_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="4dp"
+        android:background="#00F1F3FB"
+        android:text="Номер сотрудника "
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/email_employee_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Почтовый адрес"
+        android:background="#00F1F3FB"
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_employee_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/id_employee_ESP"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/firstname_employee_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Имя"
+        android:background="#00F1F3FB"
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_employee_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/email_employee_ESP"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lastname_employee_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Фамилия"
+        android:background="#00F1F3FB"
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/firstname_employee_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/firstname_employee_ESP"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/post_employee_ESP"
+        android:layout_width="320dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="8dp"
+        android:text="Пост"
+        android:background="#00F1F3FB"
+        android:textColor="#B6EFE7"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lastname_employee_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/lastname_employee_ESP"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/avatar_employee_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:text="Фото сотрудника"
+        android:background="#00F1F3FB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/post_employee_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/post_employee_ESP" />
+
+    <TextView
+        android:id="@+id/id_product_ESP"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left"
+        android:text="№  "
+        android:background="#00F1F3FB"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/avatar_employee_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_employee_ESP" />
+
+    <TextView
+        android:id="@+id/title_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:text="Наименование продукта"
+        android:background="#00F1F3FB"
+        app:layout_constraintStart_toStartOf="@+id/id_product_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/id_product_ESP"
+        app:layout_constraintVertical_bias="0.0" />
+    <TextView
+        android:id="@+id/avatar_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:text="Фото продукта"
+        android:background="#00F1F3FB"
+        app:layout_constraintStart_toStartOf="@+id/title_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/title_ESP"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/description_ESP"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:text="Описание продукта"
+        android:background="#00F1F3FB"
+        app:layout_constraintStart_toStartOf="@+id/avatar_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_ESP"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_ESP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#834435"
+        android:gravity="center"
+        android:text="Запрос по номеру сотрудника"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/description_ESP"
+        app:layout_constraintTop_toBottomOf="@+id/description_ESP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
